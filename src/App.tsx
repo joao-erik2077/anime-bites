@@ -1,7 +1,7 @@
-import styles from './App.module.scss';
+import Navbar from './components/navbar/Navbar';
 
 export default function App() {
   return <>
-    <h1>Anime Bites</h1>
+    <Navbar />
   </>;
 }

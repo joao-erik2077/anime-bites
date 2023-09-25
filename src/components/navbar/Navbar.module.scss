@@ -1,0 +1,17 @@
+@import 'styles/variables';
+
+.navbar {
+    height: 10vh;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 20;
+    background-color: $bg-dark_green;
+
+    &__title {
+        font-family: 'Dela Gothic One', cursive;
+        color: $text-white;
+    }
+}
