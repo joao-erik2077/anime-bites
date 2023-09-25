@@ -12,7 +12,13 @@ export default function Main() {
         >
             <div className={styles.info_panel}>
                 <h1 className={styles.info_panel__title}>Anime Bites</h1>
-                <p className={styles.info_panel__description}>description</p>
+                <hr className={styles.info_panel__line} />
+                <p className={styles.info_panel__description}>
+                Anime Bites é o lugar onde sua paixão pelo anime se encontra com pratos deliciosos. 
+                Explore um cardápio inspirado em seus personagens favoritos, saboreie os sabores do 
+                Japão e mergulhe em uma atmosfera otaku única. É a fusão perfeita entre culinária e 
+                cultura anime em um só lugar
+                </p>
             </div>
         </ImagePanel>
     </>;

@@ -1,13 +1,27 @@
 @import 'styles/variables';
 
 .info_panel {
+    width: 30vw;
     background-color: $dark_green;
+    text-align: center;
+    color: $light;
+    padding: 15px;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     &__description {
-        color: $light;
+        font-size: 1.8rem;
     }
 
     &__title {
+        font-size: 3rem;
+    }
+
+    &__line {
+        width: 80%;
         color: $light;
     }
 }
