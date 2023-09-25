@@ -8,10 +8,11 @@
     justify-content: center;
     position: fixed;
     z-index: 20;
-    background-color: $bg-dark_green;
+    background: $dark_green;
+    background: linear-gradient(90deg, $light_green 0%, $dark_green 40%, $dark_green 60%, $light_green 100%);
 
     &__title {
         font-family: 'Dela Gothic One', cursive;
-        color: $text-white;
+        color: $light;
     }
 }
