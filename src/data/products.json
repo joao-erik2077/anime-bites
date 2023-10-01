@@ -1,0 +1,77 @@
+[
+    {
+        "nome": "Ramen",
+        "img": "https://cdn7.kiwilimon.com/recetaimagen/36172/640x640/44466.jpg.webp",
+        "price": 10.99
+    },
+    {
+        "nome": "Onigiri",
+        "img": "https://brokebankvegan.com/wp-content/uploads/2023/01/Onigiri-23.jpg",
+        "price": 2.49
+    },
+    {
+        "nome": "Tempura",
+        "img": "https://assets.delirec.com/images%2FwpkR4gxJbTYDqW1fb50JicuDuU02%2Frecipe%2F8063b6fe-4f7c-400a-ada8-8b3f4cad6dbd-Tempur%C3%A1-de-legumes-gallery-0",
+        "price": 12.99
+    },
+    {
+        "nome": "Sushi",
+        "img": "https://www.ufrgs.br/laranjanacolher/wp-content/uploads/2021/08/1.png",
+        "price": 15.99
+    },
+    {
+        "nome": "Takoyaki",
+        "img": "https://travelfoodatlas.com/wp-content/uploads/2022/03/Takoyaki-720x720.jpg",
+        "price": 8.99
+    },
+    {
+        "nome": "Okonomiyaki",
+        "img": "https://www.spoonforkbacon.com/wp-content/uploads/2021/09/okonomiyaki-recipe-card.jpg",
+        "price": 9.99
+    },
+    {
+        "nome": "Taiyaki",
+        "img": "https://sudachirecipes.com/wp-content/uploads/2022/02/Taiyaki-sq.png",
+        "price": 4.99
+    },
+    {
+        "nome": "Mochi",
+        "img": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2023-07-mochi%2FMochi-Ice-Cream_17700jpg",
+        "price": 6.49
+    },
+    {
+        "nome": "Melonpan",
+        "img": "https://motimoticakeshop.com.br/wp-content/uploads/2020/07/melon-pan-de-cacau.jpg",
+        "price": 3.99
+    },
+    {
+        "nome": "Dango",
+        "img": "https://www.honestfoodtalks.com/wp-content/uploads/2023/02/Beautifully-glazed-skewered-Mitarashi-Dango-with-a-printed-cup-and-saucer-on-the-side-and-a-feather-decor.jpg",
+        "price": 5.49
+    },
+    {
+        "nome": "Curry Japonês",
+        "img": "https://brucalderon.com.br/wp-content/uploads/2021/01/Kare-Raisu-Bru-Calderon-4.jpg",
+        "price": 11.99
+    },
+    {
+        "nome": "Gyoza",
+        "img": "https://assets.delirec.com/images%2FPe7dyJX98tVIfOrdYQKzFsMfnnr2%2Frecipe%2F95a0d5ef-3f78-44d7-b585-c5c21513f2a9-Gyoza-de-porco-del%C3%ADcia!!!-gallery-0",
+        "price": 7.99
+    },
+    {
+        "nome": "Taiyaki (Peixe)",
+        "img": "https://media.istockphoto.com/id/1070705102/pt/foto/taiyaki-japanese-street-food-fish-shaped-sweet-filling-waffle-on-marble-plate-on-concrete.jpg?s=612x612&w=0&k=20&c=L08O-KN5cjbC0VdDTn6NRxUTrm2PtBzpqC5ZWWe19Oc=",
+        "price": 4.99
+    },
+    {
+        "nome": "Nikuman",
+        "img": "https://www.justonecookbook.com/wp-content/uploads/2020/04/Nikuman-Steamed-Pork-Buns-5163-I-1-500x500.jpg",
+        "price": 3.49
+    },
+    {
+        "nome": "Pocky",
+        "img": "https://2519.cdn.simplo7.net/static/2519/sku/alimentos-bomboniere-pocky-biscoito-de-palito-morango-glico-41g--p-1640010041927.jpg",
+        "price": 1.99
+    }
+]

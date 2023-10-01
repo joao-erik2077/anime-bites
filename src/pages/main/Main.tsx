@@ -20,6 +20,5 @@ export default function Main() {
                 </div>
             </section>
         </ImagePanel>
-        <div style={{height: '150vh'}}></div>
     </>;
 }

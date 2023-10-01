@@ -1,11 +1,18 @@
 import styles from './Searchbar.module.scss';
 
-interface SearchbarProps {
+type SearchbarProps = {
     placeholder?: string;
-}
+    search: string;
+    setSearch: React.Dispatch<React.SetStateAction<string>>;
+};
 
-export default function Searchbar(props: SearchbarProps) {
+export default function Searchbar({placeholder, search, setSearch}: SearchbarProps) {
     return <>
-        <input type="text" className={styles.input} placeholder={props.placeholder} />
+        <input 
+            type="text" 
+            className={styles.input} 
+            placeholder={placeholder}
+            value={search}
+            onChange={e => setSearch(e.target.value)} />
     </>;
 }
