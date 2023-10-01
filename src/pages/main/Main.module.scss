@@ -1,27 +1,35 @@
 @import 'styles/variables';
 
-.info_panel {
+.details {
+    height: 100%;
     width: 30%;
-    background-color: $dark_green;
-    text-align: center;
-    color: $light;
-    padding: 15px;
-    border-radius: 3rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
 
-    &__description {
-        font-size: 1.4rem;
-    }
-
-    &__title {
-        font-size: 2.6rem;
-    }
-
-    &__line {
-        width: 80%;
+    &__info_panel {
+        background-color: $dark_green;
+        text-align: center;
         color: $light;
+        padding: 10px;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        &__description {
+            font-size: 1.4rem;
+        }
+    
+        &__title {
+            font-family: 'Dela Gothic One', cursive;
+            font-size: 2.6rem;
+        }
+    
+        &__line {
+            width: 80%;
+            color: $light;
+        }
     }
 }
