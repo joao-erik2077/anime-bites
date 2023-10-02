@@ -14,7 +14,9 @@ export default function Products() {
             </div>
             <div className={styles.main__products}>
                 {
-                    productsData.map(e => <Product name={e.nome} price={e.price} img={e.img} />)
+                    productsData
+                        .filter(e => (e.nome.toLowerCase().indexOf(search.toLowerCase()) !== -1))
+                        .map(e => <Product name={e.nome} price={e.price} img={e.img} />)
                 }
             </div>
         </main>
