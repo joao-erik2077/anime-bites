@@ -1,0 +1,8 @@
+@import 'styles/variables';
+
+.footer {
+    width: 100%;
+    height: 30vh;
+    background: $dark_green;
+    background: linear-gradient(90deg, $light_green 0%, $dark_green 40%, $dark_green 60%, $light_green 100%);
+}
