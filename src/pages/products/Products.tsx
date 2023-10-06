@@ -6,6 +6,9 @@ import { useState } from 'react';
 
 export default function Products() {
     const [search, setSearch] = useState('');
+    const products = productsData
+        .filter(e => (e.nome.toLowerCase().indexOf(search.toLowerCase()) !== -1))
+        .map(e => <Product name={e.nome} price={e.price} img={e.img} />);
 
     return <>
         <main className={styles.main}>
@@ -14,9 +17,9 @@ export default function Products() {
             </div>
             <div className={styles.main__products}>
                 {
-                    productsData
-                        .filter(e => (e.nome.toLowerCase().indexOf(search.toLowerCase()) !== -1))
-                        .map(e => <Product name={e.nome} price={e.price} img={e.img} />)
+                    products.length > 1 ? 
+                        products :
+                        <h1 className={styles.not_found_any_products}>Nenhum produto encontrado...</h1>
                 }
             </div>
         </main>

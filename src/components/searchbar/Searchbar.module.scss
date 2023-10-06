@@ -8,8 +8,5 @@
     width: 25vw;
     margin: 0 1.5vw;
     font-size: 1rem;
-
-    &:focus {
-        outline: 2px solid $dark;
-    }
+    outline: 2px solid $dark;
 }
